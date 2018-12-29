@@ -10,9 +10,12 @@ Material 6+
 
 Usage :
 
-<code>
-  
-import { NgModule } from "@angular/core";
+
+
+  <pre>
+    <code>
+       
+       import { NgModule } from "@angular/core";
 import {  DateAdapter,  MAT_DATE_FORMATS,  MAT_DATE_LOCALE } from "@angular/material";
 
 import { MaterialPersianDateAdapter, PERSIAN_DATE_FORMATS } from "./material.persian-date.adapter";
@@ -26,18 +29,24 @@ import { MaterialPersianDateAdapter, PERSIAN_DATE_FORMATS } from "./material.per
 export class MaterialModule {
 }
 
-  </code>
+  
+
+       
+    </code>
+</pre>
+
 
 Component :
 
 <code>
   
+  ```html
 <mat-form-field>
     <input matInput [matDatepicker]="picker6" placeholder="json gregorian input" [(ngModel)]="dateControl">
     <mat-datepicker-toggle matSuffix [for]="picker6"></mat-datepicker-toggle>
     <mat-datepicker #picker6></mat-datepicker>
 </mat-form-field>
-
+```
  </code>
  
 
