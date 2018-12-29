@@ -10,6 +10,8 @@ Material 6+
 
 Usage :
 
+<code>
+  
 import { NgModule } from "@angular/core";
 import {  DateAdapter,  MAT_DATE_FORMATS,  MAT_DATE_LOCALE } from "@angular/material";
 
@@ -23,6 +25,8 @@ import { MaterialPersianDateAdapter, PERSIAN_DATE_FORMATS } from "./material.per
 })
 export class MaterialModule {
 }
+
+  </code>
 
 Component :
 
