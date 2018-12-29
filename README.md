@@ -30,11 +30,15 @@ export class MaterialModule {
 
 Component :
 
+<code>
+  
 <mat-form-field>
     <input matInput [matDatepicker]="picker6" placeholder="json gregorian input" [(ngModel)]="dateControl">
     <mat-datepicker-toggle matSuffix [for]="picker6"></mat-datepicker-toggle>
     <mat-datepicker #picker6></mat-datepicker>
 </mat-form-field>
 
+ </code>
+ 
 
 Continuation : https://www.dotnettips.info/post/2890/%D8%B4%D9%85%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2%DB%8C-date-picker-%D8%AA%D9%88%DA%A9%D8%A7%D8%B1-angular-material-6x
